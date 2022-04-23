@@ -130,6 +130,39 @@ h1 {
   padding-left: 60px;
 }
 
+.categories {
+  display: flex;
+  margin: 30px;
+  padding: 0 30px 0 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.genres {
+  display: flex;
+  padding: 0 60px 0 60px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events {
+  padding: 0 60px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.other {
+  padding: 0 60px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 ::-webkit-scrollbar {
   height: 8px;
   width: 4px;
@@ -175,6 +208,23 @@ h1 {
 }
 
 /* Music Player */
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px 60px 150px 60px;
+  margin: 30px 60px 100px 60px;
+}
+
+.bottom h4 {
+  padding: 0px 30px 0 30px;
+}
+
+.bottom h4:hover {
+  text-decoration: underline;
+}
 
 .musicplayer {
   background-color: #ab47bc;
